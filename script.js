@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Значение - это объект с двумя свойствами: img (картинка) и text (надпись).
     const outcomes = {
         1: {
-            img: "https://cdn.steamstatic.com/apps/dota2/images/dota_react/heroes/abaddon.png",
+            img: "images/abaddon.png",
             text: "абадон"
         },
         2: {
