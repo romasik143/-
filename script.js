@@ -524,7 +524,7 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault();
 
         // Генерируем случайное число от 1 до 126
-        const randomNumber = Math.floor(Math.random() * 1) + 1;
+        const randomNumber = Math.floor(Math.random() * 127) + 1;
         
         // Всегда показываем выпавшее число
         resultContainer.textContent = randomNumber;
