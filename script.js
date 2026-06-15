@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Значение - это объект с двумя свойствами: img (картинка) и text (надпись).
     const outcomes = {
         1: {
-            img: "C:/Users/PANK-L0RD/Desktop/сайт/images/abaddon.png",
+            img: "https://cdn.steamstatic.com/apps/dota2/images/dota_react/heroes/abaddon.png",
             text: "абадон"
         },
         2: {
@@ -524,7 +524,7 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault();
 
         // Генерируем случайное число от 1 до 126
-        const randomNumber = Math.floor(Math.random() * 127) + 1;
+        const randomNumber = Math.floor(Math.random() * 1) + 1;
         
         // Всегда показываем выпавшее число
         resultContainer.textContent = randomNumber;
