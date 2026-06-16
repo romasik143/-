@@ -113,7 +113,7 @@ img {
 /* Селектор по классу */
 .hero-section {
     /* Путь к изображению */
-    background-image: url("C:/Users/PANK-L0RD/Desktop/сайт/images/фсе скилы.png");
+    background-image: url("images/фсе скилы.png");
 
     /* Дополнительные свойства для корректного отображения */
     background-size: cover; /* Масштабирует изображение так, чтобы оно полностью покрывало секцию */
